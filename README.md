@@ -105,7 +105,9 @@ libjpeg-devel
  #endif
    
 ```
+
 <h2>SDK使用流程</h2>
+
 1.  引入头文件 pyvqa.h
 2.  初始化SDK参数
 ```C
@@ -119,6 +121,7 @@ SDK采用的是多帧混合的模式提供检测准确度，检测结果为多�
 比如传入VQAThreshold结构体shaking设置为50，当VQAResult返回的shaking值大于50时，说明检测结果抖动。
 
 <h2>c接口调用示例：test_vqa_c.cpp></h2>
+
 ```C
 //
 // Created by kanbig on 19-5-8.
